@@ -2,9 +2,9 @@ import React from 'react';
 
 const BannerForm = ({ bannerState, handleChange }) => {
   return (
-    <div className="w-[80%] mx-auto bg-white p-4 shadow-md text-black">
-      <h2 className="text-2xl font-bold mb-4">Customize Banner</h2>
-      <div className="flex gap-x-4">
+    <div className="w-[95%] md:w-[80%] mx-auto bg-white p-4 shadow-md text-black">
+      <h2 className="text-xl md:text-2xl font-bold mb-4">Customize Banner</h2>
+      <div className="flex flex-col md:flex-row gap-4 md:gap-x-4">
         <div className="flex-1 space-y-2">
           <div>
             <label className="block text-sm font-medium mb-1">Background Color</label>

@@ -22,7 +22,7 @@ const InteractiveBanner = () => {
     <div className="min-h-screen w-full">
       {/* Banner */}
       <div 
-        className="w-full p-6 shadow-md mb-6 transition-all duration-300"
+        className="w-full p-4 md:p-6 shadow-md mb-6 transition-all duration-300"
         style={{
           backgroundColor: bannerState.backgroundColor,
           color: bannerState.textColor,
@@ -33,9 +33,9 @@ const InteractiveBanner = () => {
           <img 
             src={bannerState.imageUrl} 
             alt="Banner" 
-            className="w-full h-64 object-cover rounded-lg mb-4"
+            className="w-full h-48 md:h-64 object-cover rounded-lg mb-4"
           />
-          <p className="text-center">{bannerState.text}</p>
+          <p className="text-center text-lg md:text-xl">{bannerState.text}</p>
         </div>
       </div>
 
