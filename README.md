@@ -1,6 +1,8 @@
-# Interactive Banner Creator (Micro-task)
+# Interactive Banner Creator (Microtask)
 
 A modern React application that allows users to create and customize banners with a live preview interface. This tool simplifies the process of creating mediawiki banners with an intuitive user interface.
+
+![Banner](https://github.com/user-attachments/assets/ee34cc7e-3e36-4d91-9c0d-002011c245ef)
 
 ## Features
 
