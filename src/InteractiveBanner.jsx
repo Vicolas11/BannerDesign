@@ -21,7 +21,7 @@ const InteractiveBanner = () => {
   return (
     <div className="min-h-screen w-full">
       {/* Banner */}
-      <div 
+      <div
         className="w-full p-4 md:p-6 shadow-md mb-6 transition-all duration-300"
         style={{
           backgroundColor: bannerState.backgroundColor,
@@ -30,12 +30,12 @@ const InteractiveBanner = () => {
         }}
       >
         <div className="container mx-auto">
-          <img 
-            src={bannerState.imageUrl} 
-            alt="Banner" 
+          <img
+            src={bannerState.imageUrl}
+            alt="Banner"
             className="w-full h-48 md:h-64 object-cover rounded-lg mb-4"
           />
-          <p className="text-center text-lg md:text-xl">{bannerState.text}</p>
+          <p className="text-center text-lg md:text-xl" style={{ fontSize: bannerState.fontSize }}>{bannerState.text}</p>
         </div>
       </div>
 
